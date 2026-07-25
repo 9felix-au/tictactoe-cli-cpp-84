@@ -13,3 +13,5 @@ int main() {
     std::vector<char> board(9, ' ');
     board[0] = 'X';
     board[4] = 'O';
+    board[8] = 'X';
+    std::cout << "Tic-Tac-Toe Demo:\n";
