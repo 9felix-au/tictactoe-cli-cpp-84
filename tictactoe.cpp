@@ -8,3 +8,5 @@ void drawBoard(const std::vector<char>& board) {
     std::cout << "---|---|---\n";
     std::cout << " " << board[6] << " | " << board[7] << " | " << board[8] << "\n";
 }
+
+int main() {
