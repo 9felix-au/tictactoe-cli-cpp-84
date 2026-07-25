@@ -10,3 +10,6 @@ void drawBoard(const std::vector<char>& board) {
 }
 
 int main() {
+    std::vector<char> board(9, ' ');
+    board[0] = 'X';
+    board[4] = 'O';
